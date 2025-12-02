@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+	  <!-- NuGet Infos -->
+	  <PackageId>Cacx.LanguageManager.Core</PackageId>
+	  <Version>1.0.0</Version>
+	  <Authors>Cristiano3120</Authors>
+	  <Company>Cacx</Company>
+	  <Product>LanguageManager</Product>
+
+	  <Description>A lightweight localization system for .NET and WPF.</Description>
+
+	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+	  <NeutralLanguage>en</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cacx.LanguageManager.Abstractions\Cacx.LanguageManager.Abstractions.csproj" />
+    <ProjectReference Include="..\Cacx.LanguageManager.Core\Cacx.LanguageManager.Core.csproj" />
+    <ProjectReference Include="..\Cacx.LanguageManager.Wpf\Cacx.LanguageManager.Wpf.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/samples/">
+    <Project Path="LanguageManagerSample/Cacx.LanguageManager.SampleOne.csproj" Id="b8cdb642-2f17-4c7b-957b-069603cd8427" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="Cacx.LanguageManager.Abstractions/Cacx.LanguageManager.Abstractions.csproj" />
+    <Project Path="Cacx.LanguageManager.Core/Cacx.LanguageManager.Core.csproj" />
+    <Project Path="Cacx.LanguageManager.Wpf/Cacx.LanguageManager.Wpf.csproj" />
+    <Project Path="Cacx.LanguageManager/Cacx.LanguageManager.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="LanguageManagerTests/Cacx.LanguageManager.Tests.csproj" Id="fe71870d-4552-4060-90d6-3a97ff5676fd" />
+  </Folder>
+</Solution>
