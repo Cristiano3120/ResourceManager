@@ -1,25 +1,31 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
 
-	  <!-- NuGet Infos -->
-	  <PackageId>Cacx.LanguageManager.Abstractions</PackageId>
-	  <Version>1.0.0</Version>
-	  <Authors>Cristiano3120</Authors>
-	  <Product>LanguageManager</Product>
-	  <PackageProjectUrl>https://github.com/Cristiano3120/LanguageManager</PackageProjectUrl>
-	  <RepositoryUrl>https://github.com/Cristiano3120/LanguageManager</RepositoryUrl>
+		<PackageLicenseFile>License.txt</PackageLicenseFile>
 
-	  <Description>A lightweight localization system for .NET and WPF.</Description>
+		<!-- NuGet Infos -->
+		<PackageId>Cacx.LanguageManager.Abstractions</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Cristiano3120</Authors>
+		<Product>LanguageManager</Product>
+		<PackageProjectUrl>https://github.com/Cristiano3120/LanguageManager</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Cristiano3120/LanguageManager</RepositoryUrl>
+		
+		<Description>A lightweight localization system for .NET and WPF.</Description>
 
-	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 
-	  <NeutralLanguage>en</NeutralLanguage>
+		<NeutralLanguage>en</NeutralLanguage>
 
-	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-  </PropertyGroup>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	</PropertyGroup>
 
+	<ItemGroup>
+		<None Include="License.txt" Pack="true" PackagePath="" />
+	</ItemGroup>
+	
 </Project>

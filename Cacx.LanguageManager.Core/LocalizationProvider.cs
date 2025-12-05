@@ -1,7 +1,6 @@
 ﻿using Cacx.LanguageManager.Abstractions;
-using Cacx.LanguageManager.Core;
 
-namespace Cacx.LanguageManager.Wpf;
+namespace Cacx.LanguageManager.Core;
 
 /// <summary>
 /// Provides access to the application's current localization service instance.

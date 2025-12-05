@@ -37,6 +37,7 @@ public sealed class LocalizationService : ILocalizationService
     /// <param name="cultureInfo">The culture information to use for resource lookup. If null, the current UI culture is used.</param>
     public LocalizationService(string basePath, CultureInfo? cultureInfo = null) 
     {
+        LocalizationProvider.Service = this;
         _currentCulture = cultureInfo ?? CultureInfo.CurrentUICulture;
         _resourceManager = new ResourceManager(basePath, Assembly.GetCallingAssembly());
     }

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using Cacx.LanguageManager.Core;
+using System.ComponentModel;
 
 namespace Cacx.LanguageManager.Wpf;
 
