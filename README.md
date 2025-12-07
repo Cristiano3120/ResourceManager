@@ -35,9 +35,19 @@ public ExampleCtor(ILocalizationService service)
 }
 ```
 
-or use this property
+or instanciate an *ILocalizationService* one time... 
+
 ```cs
+//Call this at the start of your application
 public void Method()
+{
+  _ = new LocalizationService("some random path...") //You dont have to use the instance instantly you can disregrad it for now
+}
+```
+
+and use this property afterwards to get it...
+```cs
+public void SomeOtherMethod()
 {
   ILocalizationService service = LocalizationProvider.Service;
 }
