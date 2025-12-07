@@ -6,7 +6,7 @@ It also works on other kind of resources tho.
 ## 📚 Lets go through a **step** by **step** tutorial on how to setup and use this library. 
 
 ### 📋 Setup
-Open the project terminal and type in ***dotnet add package Cacx.LanguageManager --version 1.0.0***
+Open the project terminal and type in ***dotnet add package Cacx.LanguageManager --version 1.1.1***
 
 ### 💻 Usage
 *Optional:* <br>
