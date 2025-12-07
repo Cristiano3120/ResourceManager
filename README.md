@@ -18,7 +18,10 @@ public App()
 {
     AppHost = Host.CreateDefaultBuilder().ConfigureServices((context, services) =>
     {
-      _ = services.AddSingleton<ILocalizationService, LocalizationService>();
+         _ = services.AddSingleton<ILocalizationService, LocalizationService>((_) =>
+         {
+             return new LocalizationService(basePath: "Some path...");
+         });
     }.Build();
 
     _ = AppHost.Services.GetRequiredService<ILocalizationService>(); //This call is needed! Just disregard the service
@@ -43,7 +46,7 @@ or instanciate an *ILocalizationService* one time...
 //Call this at the start of your application
 public void Method()
 {
-  _ = new LocalizationService("some random path...") //You dont have to use the instance instantly you can disregrad it for now
+  _ = new LocalizationService("some path...") //You dont have to use the instance instantly you can disregrad it for now
 }
 ```
 
