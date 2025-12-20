@@ -78,6 +78,7 @@ public sealed class LocalizationService : ILocalizationService
     public void UpdateContext(string basePath)
     {
         _resourceManager = new ResourceManager(basePath, Assembly.GetCallingAssembly());
+        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(null));
     }
 
     /// <summary>

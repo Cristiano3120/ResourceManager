@@ -9,7 +9,7 @@
 
 		<!-- NuGet Infos -->
 		<PackageId>Cacx.LanguageManager</PackageId>
-		<Version>1.1.0</Version>
+		<Version>1.1.1</Version>
 		<Authors>Cristiano3120</Authors>
 		<Product>LanguageManager</Product>
 		<PackageProjectUrl>https://github.com/Cristiano3120/LanguageManager</PackageProjectUrl>
